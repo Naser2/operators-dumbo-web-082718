@@ -18,6 +18,6 @@ def not_safe?(speed)
 	end 
 end
 	
-not_safe?()
+not_safe?(60)
 
 
