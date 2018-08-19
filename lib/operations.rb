@@ -14,4 +14,8 @@ speed > 60 || speed < 40 ? true : false
 end
 	
 
+#Other version of unsafe using Ternary 
+# def unsafe?(speed)
+#   speed >60 ||speed < 40 ? true : false
+# end	end
 
