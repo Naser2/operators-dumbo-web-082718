@@ -11,7 +11,7 @@ unsafe?(40)
 
 def not_safe? speed
   
-true =	speed < 60 || speed < 40 
+true =	speed < 60 || speed < 40 ?
 	 
 	  
    speed ?: 40 || ?: 60
